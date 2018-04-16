@@ -15,6 +15,8 @@
 		0D9C30322084E2F500DA5913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C30312084E2F500DA5913 /* main.m */; };
 		0D9C303C2084E2F500DA5913 /* PodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C303B2084E2F500DA5913 /* PodsTestTests.m */; };
 		0D9C30472084E2F600DA5913 /* PodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C30462084E2F600DA5913 /* PodsTestUITests.m */; };
+		0D9C30572084E3DA00DA5913 /* PersonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C30562084E3DA00DA5913 /* PersonTools.m */; };
+		0D9C305A2084E3E500DA5913 /* StudentTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C30592084E3E500DA5913 /* StudentTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0D9C30422084E2F500DA5913 /* PodsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9C30462084E2F600DA5913 /* PodsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodsTestUITests.m; sourceTree = "<group>"; };
 		0D9C30482084E2F600DA5913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9C30552084E3DA00DA5913 /* PersonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonTools.h; sourceTree = "<group>"; };
+		0D9C30562084E3DA00DA5913 /* PersonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTools.m; sourceTree = "<group>"; };
+		0D9C30582084E3E500DA5913 /* StudentTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentTools.h; sourceTree = "<group>"; };
+		0D9C30592084E3E500DA5913 /* StudentTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		0D9C30162084E2F500DA5913 = {
 			isa = PBXGroup;
 			children = (
+				0D9C30542084E3A600DA5913 /* XKPodsPerson */,
 				0D9C30212084E2F500DA5913 /* PodsTest */,
 				0D9C303A2084E2F500DA5913 /* PodsTestTests */,
 				0D9C30452084E2F500DA5913 /* PodsTestUITests */,
@@ -130,6 +137,17 @@
 				0D9C30482084E2F600DA5913 /* Info.plist */,
 			);
 			path = PodsTestUITests;
+			sourceTree = "<group>";
+		};
+		0D9C30542084E3A600DA5913 /* XKPodsPerson */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C30552084E3DA00DA5913 /* PersonTools.h */,
+				0D9C30562084E3DA00DA5913 /* PersonTools.m */,
+				0D9C30582084E3E500DA5913 /* StudentTools.h */,
+				0D9C30592084E3E500DA5913 /* StudentTools.m */,
+			);
+			path = XKPodsPerson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9C30572084E3DA00DA5913 /* PersonTools.m in Sources */,
 				0D9C30272084E2F500DA5913 /* ViewController.m in Sources */,
+				0D9C305A2084E3E500DA5913 /* StudentTools.m in Sources */,
 				0D9C30322084E2F500DA5913 /* main.m in Sources */,
 				0D9C30242084E2F500DA5913 /* AppDelegate.m in Sources */,
 			);
